@@ -1,0 +1,167 @@
+/* app.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  /* Container */
+  .flex {
+    display: flex;
+  }
+
+  .justify-center {
+    justify-content: center;
+  }
+
+  .align-middle {
+    align-items: center;
+  }
+
+  .w-full {
+    width: 100%;
+  }
+
+  .h-screen {
+    height: 100vh;
+  }
+
+  .bg-violet-600 {
+    background-color: #7C3AED;
+  }
+
+  .pt-20 {
+    padding-top: 5rem;
+  }
+
+  .w-6/12 {
+    width: 50%;
+  }
+
+  .py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .pl-10 {
+    padding-left: 2.5rem;
+  }
+
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+
+  .lg\:rounded-l-none {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+
+  .bg-white {
+    background-color: #ffffff;
+  }
+
+  .h-4/5 {
+    height: 80%;
+  }
+
+  .w-8/12 {
+    width: 66.666667%;
+  }
+
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .text-4xl {
+    font-size: 2.25rem;
+  }
+
+  .font-bold {
+    font-weight: 700;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .text-white {
+    color: #ffffff;
+  }
+
+  .text-3xl {
+    font-size: 1.875rem;
+  }
+
+  .mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
+  .text-gray-600 {
+    color: #4B5563;
+  }
+
+  .mt-5 {
+    margin-top: 1.25rem;
+  }
+
+  .mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
+  .flex-col {
+    flex-direction: column;
+  }
+
+  .gap-5 {
+    gap: 1.25rem;
+  }
+
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .bg-violet-600 {
+    background-color: #7C3AED;
+  }
+
+  .rounded-md {
+    border-radius: 0.375rem;
+  }
+
+  .focus\:outline-none {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+  }
+
+  .w-60 {
+    width: 15rem;
+  }
